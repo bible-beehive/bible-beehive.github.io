@@ -1,1 +1,1 @@
-# bible-beehive.github.io
+https://bible-beehive.github.io
