@@ -19,6 +19,8 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <link rel="stylesheet" href="css/lightbox.min.css">
+
   <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -197,7 +199,20 @@ of beehive is meant to invoke the idea of collaboration.</p>
 
 <h2>Can I see some screenshots?</h2>
 
-<p>I'll be adding some screenshots to this page soon! (I need to anonymize the screenshots first.)</p>
+<p>Here you go:</p>
+
+<div>
+
+  <a href="img/screenshots/screenshot-chapter.png" data-lightbox="screenshots" data-title="Chapter page"
+    ><img src="img/screenshots/thumbnail-screenshot-chapter.png"></a>
+  <a href="img/screenshots/screenshot-all-chapters.png" data-lightbox="screenshots" data-title="All chapters"
+    ><img src="img/screenshots/thumbnail-screenshot-all-chapters.png"></a>
+  <a href="img/screenshots/screenshot-progress.png" data-lightbox="screenshots" data-title="Progress page"
+    ><img src="img/screenshots/thumbnail-screenshot-progress.png"></a>
+  <a href="img/screenshots/screenshot-verse.png" data-lightbox="screenshots" data-title="Verse page"
+    ><img src="img/screenshots/thumbnail-screenshot-verse.png"></a>
+
+</div>
 
 <h2>I know you are looking for feedback. How can I contact you?</h2>
 
@@ -240,6 +255,13 @@ this out!</p>
 
 <p>This website was launched on 25 May 2022 and was last updated 5 Sept 2022.</p>
 
+<script src="js/lightbox-plus-jquery.min.js"></script>
+<script>
+    lightbox.option({
+      alwaysShowNavOnTouchDevices: true,
+      'resizeDuration': 200,
+    })
+</script>
 </body>
 
 </html>
